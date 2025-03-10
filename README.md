@@ -18,6 +18,14 @@ $ make create-project # Install the latest Laravel project
 $ make install-recommend-packages # Not required
 ```
 
+## Installation of Laravel Breeze
+
+To install Laravel Breeze, run the following command:
+
+```bash
+$ docker-compose exec app composer require laravel/breeze:^1.10 --dev
+```
+
 http://localhost
 
 Read this [Makefile](https://github.com/ucan-lab/docker-laravel/blob/master/Makefile).
